@@ -1,0 +1,23 @@
+RELATORIO - IMPLEMENTACAO E ANALISE DE ALGORITMOS DE ORDENACAO
+
+Este trabalho teve como objetivo implementar e analisar o desempenho de cinco algoritmos
+classicos de ordenacao: Bubble Sort, Selection Sort, Insertion Sort, Quick Sort e Merge Sort. Os
+algoritmos foram desenvolvidos na linguagem C, cada um implementado em uma funcao
+separada. Foi utilizada a funcao clock() da biblioteca para medir o tempo de execucao. Tambem foi
+implementada uma funcao auxiliar para impressao dos vetores e outra para copia, garantindo que
+todos os algoritmos fossem executados com os mesmos dados.
+
+Implementacao dos Algoritmos
+
+O Bubble Sort realiza comparacoes entre elementos adjacentes e troca quando necessario. O
+Selection Sort seleciona o menor elemento e o posiciona corretamente a cada iteracao. O Insertion
+Sort insere cada elemento na posicao correta dentro da parte ja ordenada. O Quick Sort utiliza
+divisao e conquista, escolhendo um pivo para particionar o vetor. O Merge Sort tambem utiliza
+divisao e conquista, dividindo o vetor e realizando a intercalacao ordenada.
+
+Conclusao: Os resultados demonstram que algoritmos de complexidade O(n^2), como Bubble, Selection e
+Insertion Sort, apresentam crescimento significativo no tempo de execucao conforme o tamanho
+do vetor aumenta. Ja os algoritmos O(n log n), como Quick Sort e Merge Sort, mostraram
+desempenho superior para grandes volumes de dados. Conclui-se que a escolha do algoritmo
+impacta diretamente na eficiencia da aplicacao, principalmente quando se trabalha com grandes
+conjuntos de dados.
