@@ -1,5 +1,3 @@
-# -Implementa-o-de-Algoritmos-de-Ordena-o-em-C
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
